@@ -142,8 +142,6 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('Lequel des éléments suivants est considéré comme une source d\'énergie ?', 'Pétrole'));
     this.tab.push(new Answers('La Renaissance a été une "Renaissance" de', 'Culture classique'));
     this.tab.push(new Answers('Les avantages de la presse à imprimer de Johannes Gutenberg comprennent tous les éléments suivants, sauf', 'Augmentation du pouvoir de l\'église'));
-    this.tab.push(new Answers('', ''));
-    this.tab.push(new Answers('', ''));
     this.tab.push(new Answers('Qui a inventé l\'imprimerie ?', 'Jean Gutenberg'));
     this.tab.push(new Answers('Qui a fondé le Royaume des Asturies ?', 'Pélage'));
     this.tab.push(new Answers('Lequel des éléments suivants ne donne PAS d\'EXP aux commandants ?', 'Attaquer d\'autres joueurs'));
@@ -191,8 +189,6 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('Le Pays de Galles est officiellement devenu une partie du Royaume de Grande-Bretagne sous le règne de quel roi ?', 'Le roi Henri VIII'));
     this.tab.push(new Answers('La reine Victoria d\'Angleterre faisait partie de quelle maison royale ?', 'La maison de Hanovre'));
     this.tab.push(new Answers('Laquelle des sept merveilles du monde a été créée pour guérir le mal du pays de la nouvelle reine de Babylone ?', 'Les jardins suspendus'));
-    this.tab.push(new Answers('', ''));
-    this.tab.push(new Answers('', ''));
     this.tab.push(new Answers('Lequel des éléments suivants est une source d\'énergie non renouvelable ?', 'Eau'));
     this.tab.push(new Answers('Quel commandant était considéré comme un ennemi de Rome dès son plus jeune âge ?', 'Hannibal Barça'));
     this.tab.push(new Answers('Quel groupe artistique est reconnu comme un « trésor national » du Canada ?', 'Cirque du soleil'));
@@ -322,8 +318,8 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('Lors de la capture et de la remise à l\'eau de poissons d\'eau profonde, pourquoi est-il important de percer leur vessie natatoire ?', 'Pour les empêcher de mourir de vessie natatoire distendue'));
     this.tab.push(new Answers('Lequel des facteurs suivants permet de superposer certaines boissons mélangées ?', 'Densité'));
     this.tab.push(new Answers('Parmi les races de chats suivantes, laquelle est connue pour être dépourvue de poils ?', 'Sphynx'));
-    this.tab.push(new Answers('Quand est la Journée internationale des forêts?', '44641'));
-    this.tab.push(new Answers('Quand est la journée mondiale sans tabac ?', '44712'));
+    this.tab.push(new Answers('Quand est la Journée internationale des forêts?', '21 mars'));
+    this.tab.push(new Answers('Quand est la journée mondiale sans tabac ?', '31 mai'));
     this.tab.push(new Answers('Quand les dinosaures ont-ils existé pour la première fois ?', 'Trias'));
     this.tab.push(new Answers('Quelle nation n\'a PAS participé à la bataille de Waterloo ?', 'Italie'));
     this.tab.push(new Answers('En quoi le commandant Sun Tzu est-il doué ?', 'Mener les garnisons de la ville.'));
