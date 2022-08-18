@@ -1,0 +1,14 @@
+Recherche :
+<input type="text" [(ngModel)]="searchValue" (ngModelChange)="changeSearchValue()" />
+<br />
+<br />
+<table>
+    <tr>
+        <th class="question">question</th>
+        <th class="reponse">réponse</th>
+    </tr>
+    <tr *ngFor="let val of filteredTab">
+        <td class="question">{{val.question}}</td>
+        <td class="reponse">{{val.response}}</td>
+    </tr>
+</table>
