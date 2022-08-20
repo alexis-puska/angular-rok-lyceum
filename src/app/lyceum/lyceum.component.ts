@@ -833,7 +833,7 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('Quel type d\'unité est fort contre les archers ?','Chevalerie'));
     this.tab.push(new Answers('Quel aéroport civil est le plus haut au-dessus du niveau de la mer ?','Aéroport Daocheng Yading'));
     this.tab.push(new Answers('Quel célèbre samouraï japonais s\'appelait "Ushiwakamaru" quand il était petit ?','Minamoto no Yoshitsune'));
-    this.tab.push(new Answers('Quelle dynasite de la chine ancienne est représentée dans "la fête de qingming" au bord de la rivière','Song'));
+    this.tab.push(new Answers('Quelle dynastie de la chine ancienne est représentée dans "la fête de qingming" au bord de la rivière','Song'));
 
 
     this.filteredTab = this.tab;
