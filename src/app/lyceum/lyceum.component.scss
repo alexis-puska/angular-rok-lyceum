@@ -1,14 +1,47 @@
-table, th, td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    width: 100%;
-  }
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
 
-  .question{
-    width: 70%;
-  }
+tr:nth-child(even) {
+  background: #ccc;
+}
 
-  .reponse {
-    width: 30%;
-  }
+tr:nth-child(odd) {
+  background: #fff;
+}
+
+th {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.title {
+  color: #ff7139;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.question {
+  width: 70%;
+}
+
+.reponse {
+  width: 30%;
+}
+
+.search {
+  font-size: 25px;
+  margin: 40px;
+}
+
+.search input {
+  width: 100%;
+  font-size: 25px;
+}

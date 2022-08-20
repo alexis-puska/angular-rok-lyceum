@@ -1,14 +1,21 @@
-Recherche :
-<input type="text" [(ngModel)]="searchValue" (ngModelChange)="changeSearchValue()" />
-<br />
-<br />
-<table>
-    <tr>
-        <th class="question">question</th>
-        <th class="reponse">réponse</th>
-    </tr>
-    <tr *ngFor="let val of filteredTab">
-        <td class="question">{{val.question}}</td>
-        <td class="reponse">{{val.response}}</td>
-    </tr>
-</table>
+<div>
+    <div class="title">
+        <h1>Erudit sans égale : Lyceum of wisdom</h1>
+    </div>
+
+    <div class="search">
+        <span>RECHERCHE :</span>
+        <br />
+        <input type="text" [(ngModel)]="searchValue" (ngModelChange)="changeSearchValue()" />
+    </div>
+    <table>
+        <tr>
+            <th class="question">QUESTION</th>
+            <th class="reponse">REPONSE</th>
+        </tr>
+        <tr *ngFor="let val of filteredTab">
+            <td class="question">{{val.question}}</td>
+            <td class="reponse">{{val.response}}</td>
+        </tr>
+    </table>
+</div>
