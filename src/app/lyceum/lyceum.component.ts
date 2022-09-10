@@ -834,7 +834,15 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('Quel aéroport civil est le plus haut au-dessus du niveau de la mer ?','Aéroport Daocheng Yading'));
     this.tab.push(new Answers('Quel célèbre samouraï japonais s\'appelait "Ushiwakamaru" quand il était petit ?','Minamoto no Yoshitsune'));
     this.tab.push(new Answers('Quelle dynastie de la chine ancienne est représentée dans "la fête de qingming" au bord de la rivière','Song'));
-
+    this.tab.push(new Answers('Quelle est la plus haute monatage d\'afrique','le Kilimandjaro'));
+    this.tab.push(new Answers('Quel est le minéral le plus souple actuellement connu de l\'homme','Talc'));
+    this.tab.push(new Answers('Quelle est la capacité de transport par défaut si votre comptoir est de niveau 25','5 millions'));
+    this.tab.push(new Answers('Quelle est la cause principale du mal aigu des montagnes','Une exposition rapide à de faibles quantité d\'oxygène en hante altitude'));
+    this.tab.push(new Answers('Par lequel de ces pays passe le premier méridien de Greenwich','Mali'));
+    this.tab.push(new Answers('En quelle année est né Napoléon Bonaparte','1769'));
+    this.tab.push(new Answers('Dans quelle région d\'itale se trouve la Cathédrale Santa Maria del Fiore','Toscane'));
+    this.tab.push(new Answers('Laquelle des propositions suivantes est une ressources énergétique inépuisable reposant sur le magma chand ou la roche chande et sèche se trouvant en dessous','2nergie géothermique'));
+    this.tab.push(new Answers('Combien d\'unité de minerai de fer normal doivent être combinées pour former une unité de minerai de fer avancé','4'));
 
     this.filteredTab = this.tab;
   }
