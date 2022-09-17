@@ -910,6 +910,7 @@ export class LyceumComponent implements OnInit {
     this.tab.push(new Answers('quelle compétence n\'est pas une compétence du cher de Ceroli Astrid','Baiser de feu'));
     this.tab.push(new Answers('Quelle commandante porte une bague à un doigt ?','Reine Tamar de Géorgie'));
     this.tab.push(new Answers('Combien y-a-t-il d\'oeuf de pâques sur le cadre d\'avatar Oeuf de pâques','5'));
+    this.tab.push(new Answers('Combien de fois pouvez-vous recevoir de l\'aide de l\'alliance si votre centre d\'alliance est de niveau 14 ?','18'));
     
 
 
