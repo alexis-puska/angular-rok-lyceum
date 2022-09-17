@@ -1,21 +1,32 @@
-<div>
-    <div class="title">
-        <h1>Erudit sans égale : Lyceum of wisdom</h1>
+<div class="container">
+    <div class="row">
+        <h1  class="text-center text-danger">Erudit sans égale : Lyceum of wisdom</h1>
     </div>
 
-    <div class="search">
-        <span>RECHERCHE :</span>
-        <br />
-        <input type="text" [(ngModel)]="searchValue" (ngModelChange)="changeSearchValue()" />
+    <div class="row">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search" aria-label="Question ?"
+                aria-describedby="basic-addon2" [(ngModel)]="searchValue" (ngModelChange)="changeSearchValue()">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" (click)="clearInput()">RAZ</button>
+            </div>
+        </div>
     </div>
-    <table>
-        <tr>
-            <th class="question">QUESTION</th>
-            <th class="reponse">REPONSE</th>
-        </tr>
-        <tr *ngFor="let val of filteredTab">
-            <td class="question">{{val.question}}</td>
-            <td class="reponse">{{val.response}}</td>
-        </tr>
-    </table>
+
+    <div class="row">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">Question</th>
+                    <th scope="col" class="text-center">Réponse</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let val of filteredTab">
+                    <td>{{val.question}}</td>
+                    <td class="text-center">{{val.response}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>

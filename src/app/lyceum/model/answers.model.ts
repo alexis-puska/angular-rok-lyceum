@@ -5,6 +5,7 @@ export interface IAnswers {
 }
 
 export class Answers implements IAnswers {
+   
     constructor(
         public question: string,
         public response: string,
