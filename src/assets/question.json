@@ -2695,4 +2695,19 @@
 }, {
 	"question": "Quel jour est la journée mondiale de l'environnement chaque année ?",
 	"response": "5 juin"
+}, {
+	"question": "Sur la page VUE COMMANDANT, quel bonus reçoivent les commandants occupant le rôle de instructeur ?",
+	"response": "Attaque des troupe +1%"
+}, {
+	"question": "Quelle mesure officielle criminalisait le fait de donner à martin Luther de la nourriture ou un abri ?",
+	"response": "Diète de Worms"
+}, {
+	"question": "Quelle civilisation donne un bonus de vitesse de contruction",
+	"response": "Chine"
+}, {
+	"question": "Sur la page VUE COMMANDANT, quel bonus reçoivent les commandants occupant le rôle Agent fiscal",
+	"response": "Vitesse de récolte +5%"
+}, {
+	"question": "Qui ne peut-on pas désigner par l'épithète le dernier des Romains, qui désigne la façon de penser de la Rome antique ?",
+	"response": "Attila"
 }]
